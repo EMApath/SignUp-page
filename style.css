@@ -9,7 +9,7 @@
 main{
     width: 100vw;
     height: 100vh;
-    background-image: url("./Pimgs/bg-intro-desktop.png");  
+    background-image: url("/images/bg-intro-desktop.png");  
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,6 @@ main{
     display: flex;
     align-items: center;
     gap: 40px;
-    /* flex-wrap: wrap; */
 }
 main div{
     flex: 1 1 30%;
@@ -133,40 +132,4 @@ a{
 a:hover{
     color: rgb(133, 78, 221);
 }
-/* a:focus{
-    background-color: rgb(44, 17, 21);
-}  */
-
-
-    /* background-image: url(
-        "./Pimgs/bg-intro-desktop.png"
-    );
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    background-color: hsl(0, 100%, 74%);
-    font-size: 16px;
-    display: flex;     */
-
-
-/* a:link{} */
-/* a:visited{
-    color: blue;
-} */
-
-/* a:active{
-    background-color: orangered;
-}
-
-/* .form-container:hover{
-    background-color: aqua;
-}pseudo class */
-
-/* #example{
-    border: 2px solid red;
-    height: 40px;
-    overflow-y: scroll;
-} */
 
